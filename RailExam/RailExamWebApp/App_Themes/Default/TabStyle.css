@@ -1,0 +1,96 @@
+
+.TopTabGroup
+{
+  background-color: #BFDBFF;
+  border: 1px;
+  border-color: white;
+  border-top-color: #E2E2E2;
+  border-left-color: #E2E2E2;
+  border-bottom-color:#E2E2E2;
+  border-style: solid;
+  border-right: none;
+  cursor: default;
+}
+
+.Level2TabGroup
+{
+  background-color:#BFDBFF;
+  border:1px solid #E2E2E2;
+  border-bottom-color:#F6F6F6;
+  border-right-color:white;
+  border-right:none;
+  cursor:default;
+}
+
+.TopLevelTab 
+{
+  color:#000000;
+  font-family:verdana;
+  font-size:12px;
+  border:1px solid #BFDBFF;
+  cursor: pointer;
+}
+
+.TopLevelTabHover 
+{
+  color: #000000;
+  font-family: verdana;
+  font-size: 12px;
+  border:1px solid #6B88FA;
+  border-top-color:#6B88FA;
+  border-left-color:#6B88FA;
+  cursor:hand;
+}
+
+.SelectedTopLevelTab
+{
+  color: #3F3F3F;
+  background-color: #FFFAFA;
+  font-family: verdana;
+  font-size: 12px;
+  border:1px solid gray;
+  border-style:solid;
+  border-color:#595959;
+  border-right-color:#FFFFFF;
+  border-bottom-color:#E2E2E2;
+  position:relative;
+  top:1px;
+  cursor:default;
+}
+
+.Level2Tab 
+{
+  color:#3F3F3F;
+  font-family:verdana;
+  font-size:11px;
+  border:1px solid #BFDBFF;
+  cursor: pointer;
+}
+
+.Level2TabHover 
+{
+  color: #3F3F3F;
+  font-family: verdana;
+  font-size: 11px;
+  border:1px solid white;
+  border-right-color: #999999;
+  border-bottom-color: #999999;
+  cursor: pointer;
+}
+
+.SelectedLevel2Tab 
+{
+  color:#3F3F3F;
+  background-color:#F6F6F6;
+  font-family:verdana;
+  font-size:11px;
+  border:1px solid white;
+  border-left-color:#999999;
+  border-top-color:#999999;
+  border-bottom-color:#F6F6F6;
+  position:relative;
+  top:2px;
+  cursor:default;
+}
+
+

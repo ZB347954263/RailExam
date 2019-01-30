@@ -1,0 +1,52 @@
+<items>
+  <item Text="知识管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group" Expanded="true">
+    <item Text="教材体系" ClientSideCommand="goToUrl('../Knowledge/Knowledge.aspx');"/>
+    <item Text="培训类别" ClientSideCommand="goToUrl('../Train/TrainTypes.aspx');" />
+    <item Text="教材管理" ClientSideCommand="goToUrl('../Book/Book.aspx');"/>
+    <item Text="课件管理" ClientSideCommand="goToUrl('../Courseware/Courseware.aspx');"/>
+    <item Text="政策法规" ClientSideCommand="goToUrl('../Regulation/Regulation.aspx');"/>
+    <item Text="其他知识" ClientSideCommand="goToUrl('../Knowledge/OtherKnowledge.aspx');"/>
+  </item>
+
+  <item Text="题库管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="参数配置" ClientSideCommand="goToUrl('../Item/ItemConfig.aspx');" />
+    <item Text="辅助分类" ClientSideCommand="goToUrl('../Item/ItemCategory.aspx');" />
+    <item Text="试题管理" ClientSideCommand="goToUrl('../Item/ItemList.aspx');" />
+  </item>
+<!--
+  <item Text="培训管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="培训类别" ClientSideCommand="goToUrl('../Train/TrainTypes.aspx');" />
+    <item Text="培训规范" ClientSideCommand="goToUrl('../Train/TrainStandard.aspx');" />
+    <item Text="课程体系" ClientSideCommand="goToUrl('../Train/TrainCommonCourse.aspx');" />
+    <item Text="培训计划" ClientSideCommand="goToUrl('../Train/TrainPlan.aspx');" />
+  </item>
+-->
+  <item Text="试卷管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="试卷类别" ClientSideCommand="goToUrl('../Paper/PaperCategory.aspx');" />
+    <item Text="组卷策略" ClientSideCommand="goToUrl('../Paper/PaperStrategy.aspx');" />
+    <item Text="试卷信息" ClientSideCommand="goToUrl('../Paper/PaperManage.aspx');" />
+  </item>
+
+  <item Text="考试管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="考试分类" ClientSideCommand="goToUrl('../Exam/ExamCategory.aspx');" />
+    <item Text="考试设计" ClientSideCommand="goToUrl('../Exam/ExamManage.aspx');" />
+    <item Text="考试监控" ClientSideCommand="goToUrl('../Exam/ExamManage.aspx');" />
+    <item Text="手工评卷" ClientSideCommand="goToUrl('../Exam/ExamManage.aspx');" />
+    <item Text="考试成绩" ClientSideCommand="goToUrl('../Exam/ExamManage.aspx');" />
+  </item>
+
+  <item Text="信息发布" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="信息公告" ClientSideCommand="goToUrl('../Notice/Bulletin.aspx');" />
+    <item Text="通知发布" ClientSideCommand="goToUrl('../Notice/Notice.aspx');" />
+    <item Text="学习论坛" ClientSideCommand="goToUrl('../Notice/Notice.aspx');" />
+  </item>
+
+  <item Text="系统管理" DefaultSubItemLookId="Level2ItemLook" SelectedLookId="TopItemLook" SubGroupCssClass="Level2Group">
+    <item Text="组织机构" ClientSideCommand="goToUrl('../System/Organization.aspx');" />
+    <item Text="工作岗位" ClientSideCommand="goToUrl('../System/Post.aspx');" />
+    <item Text="职员管理" ClientSideCommand="goToUrl('../System/Employee.aspx');" />
+    <item Text="角色权限" ClientSideCommand="goToUrl('../System/RoleDefine.aspx');" />
+    <item Text="修改密码" ClientSideCommand="goToUrl('../System/ChangePassword.aspx');" />
+    <item Text="操作日志" ClientSideCommand="goToUrl('../System/OperationLog.aspx');" />
+  </item>
+</items>

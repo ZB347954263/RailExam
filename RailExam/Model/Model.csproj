@@ -1,0 +1,161 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C663A42-5CC5-49E5-B0E0-937BD4E73455}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DSunSoft.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DSunSoft\DSunSoft.Common\bin\Debug\DSunSoft.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssistBook.cs" />
+    <Compile Include="AssistBookCategory.cs" />
+    <Compile Include="AssistBookChapter.cs" />
+    <Compile Include="AssistBookTrainType.cs" />
+    <Compile Include="AssistBookUpdate.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="BookChapter.cs" />
+    <Compile Include="BookUpdate.cs" />
+    <Compile Include="BookTrainType.cs" />
+    <Compile Include="Bulletin.cs" />
+    <Compile Include="CommitteeHeadShip.cs" />
+    <Compile Include="Courseware.cs" />
+    <Compile Include="CoursewareTrainType.cs" />
+    <Compile Include="CoursewareType.cs" />
+    <Compile Include="EducationEmployeeType.cs" />
+    <Compile Include="EducationLevel.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeDetail.cs" />
+    <Compile Include="EmployeeError.cs" />
+    <Compile Include="EmployeeRailEdu.cs" />
+    <Compile Include="EmployeeTransfer.cs" />
+    <Compile Include="Exam.cs" />
+    <Compile Include="ExamArrange.cs" />
+    <Compile Include="ExamCategory.cs" />
+    <Compile Include="ExamJudgeStatus.cs" />
+    <Compile Include="ExamResult.cs" />
+    <Compile Include="ExamResultAnswer.cs" />
+    <Compile Include="ExamResultStatus.cs" />
+    <Compile Include="ExamResultUpdate.cs" />
+    <Compile Include="ExamStatus.cs" />
+    <Compile Include="ExamType.cs" />
+    <Compile Include="FunctionRight.cs" />
+    <Compile Include="Importance.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemCategory.cs" />
+    <Compile Include="ItemConfig.cs" />
+    <Compile Include="ItemDifficulty.cs" />
+    <Compile Include="ItemStatus.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="Knowledge.cs" />
+    <Compile Include="OrgConfig.cs" />
+    <Compile Include="OrgImport.cs" />
+    <Compile Include="PaperStatus.cs" />
+    <Compile Include="PoliticalStatus.cs" />
+    <Compile Include="PostImport.cs" />
+    <Compile Include="RandomExam.cs" />
+    <Compile Include="RandomExamApply.cs" />
+    <Compile Include="RandomExamArrange.cs" />
+    <Compile Include="RandomExamComputerServer.cs" />
+    <Compile Include="RandomExamCount.cs" />
+    <Compile Include="RandomExamCountStatistic.cs" />
+    <Compile Include="RandomExamItem.cs" />
+    <Compile Include="RandomExamModularType.cs" />
+    <Compile Include="RandomExamResult.cs" />
+    <Compile Include="RandomExamResultAnswer.cs" />
+    <Compile Include="RandomExamResultAnswerCurrent.cs" />
+    <Compile Include="RandomExamResultAnswerStation.cs" />
+    <Compile Include="RandomExamResultCurrent.cs" />
+    <Compile Include="RandomExamStatistic.cs" />
+    <Compile Include="RandomExamStrategy.cs" />
+    <Compile Include="RandomExamSubject.cs" />
+    <Compile Include="RandomExamTrainClass.cs" />
+    <Compile Include="RandomExamTrainClassHa.cs" />
+    <Compile Include="Synchronize.cs" />
+    <Compile Include="SynchronizeLog.cs" />
+    <Compile Include="SystemLog.cs" />
+    <Compile Include="LoginUser.cs" />
+    <Compile Include="Notice.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="OtherKnowledge.cs" />
+    <Compile Include="Paper.cs" />
+    <Compile Include="PaperCategory.cs" />
+    <Compile Include="PaperItem.cs" />
+    <Compile Include="PaperStrategy.cs" />
+    <Compile Include="PaperStrategyBookChapter.cs" />
+    <Compile Include="PaperStrategyItemCategory.cs" />
+    <Compile Include="PaperStrategySubject.cs" />
+    <Compile Include="PaperSubject.cs" />
+    <Compile Include="Post.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regulation.cs" />
+    <Compile Include="RegulationCategory.cs" />
+    <Compile Include="SystemRole.cs" />
+    <Compile Include="SystemRoleRight.cs" />
+    <Compile Include="SystemFunction.cs" />
+    <Compile Include="SystemUserLogin.cs" />
+    <Compile Include="SystemVersion.cs" />
+    <Compile Include="TaskJudgeStatus.cs" />
+    <Compile Include="TaskResult.cs" />
+    <Compile Include="TaskResultAnswer.cs" />
+    <Compile Include="TaskResultStatus.cs" />
+    <Compile Include="TechnicianTitleType.cs" />
+    <Compile Include="TechnicianType.cs" />
+    <Compile Include="TrainCourse.cs" />
+    <Compile Include="TrainCourseBook.cs" />
+    <Compile Include="TrainCourseCourseware.cs" />
+    <Compile Include="TrainEmployee.cs" />
+    <Compile Include="TrainPlan.cs" />
+    <Compile Include="TrainPlanCourse.cs" />
+    <Compile Include="TrainPlanEmployee.cs" />
+    <Compile Include="TrainPlanStatus.cs" />
+    <Compile Include="TrainStandard.cs" />
+    <Compile Include="TrainType.cs" />
+    <Compile Include="SystemUser.cs" />
+    <Compile Include="TrainTypeExercise.cs" />
+    <Compile Include="TrainTypeTask.cs" />
+    <Compile Include="WorkGroupLeaderLevel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

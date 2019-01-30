@@ -1,0 +1,142 @@
+body
+{
+	margin:0;
+	border:0;
+	padding:0;
+    background-image: url(/RailExamBao/Common/Image/login_bg.gif);
+	position:relative;
+}
+
+#MainArea
+{
+	width:800px;
+	height:600px;
+	border:0px;
+	background-image: url(/RailExamBao/Online/style/image/OnlineExam.gif);
+	background-repeat: no-repeat;
+	text-align:left;
+	position:relative;
+}
+
+#FunctionArea
+{
+	left: 660px; 
+	top: 395px;
+	height:16px;
+	position:relative;
+}
+
+.Function
+{
+	padding:0px;
+}
+
+.FunctionName
+{
+	font-size:14px;
+    color:white;
+    font-family:ËÎÌו;
+    cursor:hand;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.FunctionBarLeft
+{
+	background-image: url(/RailExamBao/Online/image/FunctionBarLeft.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+.FunctionBarRight
+{
+	background-image:url(/RailExamBao/Online/image/FunctionBarRight.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+#OnlineExamLeft
+{
+	top: 380px;
+	left: 132px;
+	width:648px;
+	height:38px;
+	position:relative;
+}
+
+#OnlineExamMiddle
+{
+	top: 131px;
+	left: 530px;
+	width:211px;
+	height:72px;
+	position:relative;
+}
+
+#OnlineExamRight
+{
+	top: 163px;
+	left: 530px;
+	width:211px;
+	height:72px;
+	position:relative;
+}
+
+#ExamMyself
+{
+	width:211px;
+	height:72px;
+}
+
+#Exam
+{
+	width:211px;
+	height:72px;
+}
+
+#ExamResult
+{
+	width:228px;
+	height:38px;
+}
+
+img
+{
+	border:0;
+}
+
+#LoginArea
+{
+	top: 140px;
+	left: 240px;
+	width:550px;
+	height:48px;
+	position:relative;
+}
+
+.LoginLabel
+{
+    height:20px;
+	font-size: 14px;
+	font-weight:bold;
+    color:#B3D1FC;
+	line-height:20px;
+	vertical-align:bottom;
+}
+
+.LoginTextBox
+{
+    width:90px;
+    height:20px;
+    color:#000000;
+	background-color: #ffffff;
+	border: #000000 1px solid;
+	vertical-align:top;
+}

@@ -1,0 +1,97 @@
+body
+{
+	margin:0;
+	border:0;
+	padding:0;
+    background-color:#233D83;
+	position:relative;
+    background-image:none;
+}
+
+#MainArea
+{
+	width:800px;
+	height:550px;
+	border:0px;
+	background-image: url(/RailExamBao/Online/Image/FreedomStudy.gif);
+	background-repeat: no-repeat;
+	text-align:left;
+	position:relative;
+}
+
+#FunctionArea
+{
+	left: 618px; 
+	top: 324px;
+	height:16px;
+	position:relative;
+}
+
+.Function
+{
+	padding:0px;
+}
+
+.FunctionName
+{
+	font-size:14px;
+    color:#B3D1FC;
+    font-family:ËÎÌו;
+    cursor:hand;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.FunctionBarLeft
+{
+	background-image: url(/RailExamBao/Online/image/FunctionBarLeft.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+.FunctionBarRight
+{
+	background-image:url(/RailExamBao/Online/image/FunctionBarRight.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+#FreeStudyArea
+{
+	top: 240px;
+	left: 160px;
+	width:166px;
+	height:120px;
+	position:relative;
+}
+
+#FreeStudyBook
+{
+	width:166px;
+	height:48px;
+	top: 0px;
+	left: 0px;
+	position:relative;
+	padding-right:10px;
+}
+
+#FreeStudyCourseware
+{
+	width:160px;
+	height:48px;
+	top: 24px;
+	left: 6px;
+	position:relative;
+}
+
+img
+{
+	border:0;
+}

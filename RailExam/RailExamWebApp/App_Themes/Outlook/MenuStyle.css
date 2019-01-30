@@ -1,0 +1,99 @@
+.TopGroup
+{
+  background-color:#757495; 
+  background-image: url(Images/Menu/top_groupBg.gif); 
+  border:1px solid #696885; 
+  border-bottom-color: #57566F; 
+  border-right-color: #57566F; 
+  cursor:default; 
+}
+
+.MenuGroup
+{
+  background-color:#F5F5F5;
+  border:1px #4E5358 solid; 
+  border-style:solid;
+  cursor:default; 
+}
+
+.TopMenuItem
+{
+  color:white; 
+  font-family:tahoma; 
+  font-size:12px; 
+  font-weight: bold;
+  padding:20px;
+  cursor:default; 
+}
+
+.TopMenuItemHover 
+{
+  color:white; 
+  background-image: url(Images/Menu/top_itemHoverBg.gif);   
+  background-color:#757495; 
+  font-family:tahoma; 
+  font-size:12px; 
+  font-weight: bold;
+  cursor:default; 
+}
+
+.MenuItem
+{
+  border: 1px solid #F5F5F5; 
+  color:#00025C;
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:default; 
+}
+
+.MenuItemHover 
+{
+  background-color:#FFEEC2; 
+  color: #333333;
+  border: 1px solid #57566F; 
+  border-top-color: #9190AC; 
+  border-left-color: #9190AC;
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:default; 
+}
+
+.MenuItemExpanded
+{
+  background-color:#FFEEC2; 
+  color: #333333;
+  border: 1px solid #9190AC; 
+  border-top-color: #57566F; 
+  border-left-color: #57566F;
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:default; 
+}
+
+.DisabledMenuItem
+{
+  border: 1px solid #F5F5F5; 
+  color:#666666;
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:default; 
+}
+
+.DisabledMenuItemHover 
+{
+  background-color:#FFEEC2; 
+  color:#666666;
+  border: 1px solid #57566F; 
+  border-top-color: #9190AC; 
+  border-left-color: #9190AC;
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:default; 
+}
+
+.MenuBreak
+{
+  background-color: silver; 
+  width:100%;
+  height:2px;
+}

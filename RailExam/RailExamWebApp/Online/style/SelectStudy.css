@@ -1,0 +1,133 @@
+body
+{
+	margin:0;
+	border:0;
+	padding:0;
+    background-image: url(/RailExamBao/images/new/bg3.jpg);
+	position:relative;
+}
+
+#MainArea
+{
+	width:800px;
+	height:498px;
+	border:0px;
+	background-image: url(/RailExamBao/Online/image/SelectStudy.gif);
+	background-repeat: no-repeat;
+	text-align:left;
+	position:relative;
+}
+
+#SelectArea
+{
+	top: 145px;
+	left: 480px;
+	width:400px;
+	height:300px;
+	position:relative;
+}
+
+#SelectArea img
+{
+	cursor:hand;
+	width:24px;
+	height:24px;
+	vertical-align:bottom;
+}
+
+#SelectStudyArea
+{
+	top: 39px;
+	left: 343px;
+	width:280px;
+	height:44px;
+	position:relative;
+}
+
+.SelectOrg
+{
+	background-image:url(/RailExamBao/Online/image/PleaseSelect.gif);
+	width:62px;
+	height:21px;
+	background-repeat:no-repeat;
+	vertical-align:top;
+    cursor:hand;
+}
+
+.SelectPost
+{
+	background-image:url(/RailExamBao/Online/image/PleaseSelect.gif);
+	width:62px;
+	height:21px;
+	background-repeat:no-repeat;
+	vertical-align:top;
+    cursor:hand;
+}
+
+#SelectStudyBook
+{
+	width:129px;
+	height:22px;
+	top: 3px;
+	left: 170px;
+	position:relative;
+	padding-right:25px;
+}
+
+#SelectStudyCourseware
+{
+	width:118px;
+	height:44px;
+	top: 0px;
+	left: 0px;
+	position:relative;
+}
+
+#FunctionArea
+{
+	left: 698px; 
+	top: 100px;
+	height:16px;
+	position:relative;
+}
+
+.Function
+{
+	padding:0px;
+}
+
+.FunctionName
+{
+	font-size:14px;
+    color:#686868;
+    font-family:ËÎÌו;
+    cursor:hand;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.FunctionBarLeft
+{
+	background-image: url(/RailExamBao/Online/image/FunctionBarLeft.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+.FunctionBarRight
+{
+	background-image:url(/RailExamBao/Online/image/FunctionBarRight.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+img
+{
+	border:0;
+}

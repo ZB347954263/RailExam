@@ -1,0 +1,113 @@
+﻿<html>
+<head>
+
+    <script language="JavaScript" src="tree_items.js"></script>
+
+    <script language="JavaScript" src="tree_chapter.js"></script>
+
+</head>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'
+    oncopy='document.selection.empty()' onbeforecopy='return false'>
+    <div>
+        <table style="background-color: #BBE44D;">
+            <tr style="height: 28px">
+                <td style="width: 1%">
+                </td>
+                <td style="width: 89%;">
+                    <span id="namepath" style="font-weight: bold; font-size: 14px; font-family: ���_GB2312;">
+                        <script language="JavaScript">
+                        var search = window.location.search;
+                         var chapterid=search.substring(search.indexOf('chapterid=')+10,search.indexOf('&bookid='));
+   	                     for(var i=0; i<Tree_Chapter.length;i++)
+	                     {
+	 		                    if(Tree_Chapter[i] == chapterid)
+	 		                    {
+	                                document.write(Tree_Chapter[i+2]);
+	 		                    }
+	                     } 
+                        </script>
+
+                    </span>
+                </td>
+                <td align="right">
+                    <a onclick="GetExercise()" href="#" style="display:none">
+                        <img src="icons/Exercise.gif" style="border: 0px;" alt="" /></a>&nbsp;&nbsp;<a onclick="PrePage()"
+                            href="#"><img src="icons/PrePage.gif" style="border: 0px;" alt="" /></a>&nbsp;&nbsp;<a
+                                onclick="NextPage()" href="#"><img src="icons/NextPage.gif" alt="" style="border: 0px;" /></a>
+                </td>
+            </tr>
+        </table>
+        <iframe id="chaptercontent" frameborder="0" width="100%" height="95%" scrolling="yes">
+        </iframe>
+    </div>
+</body>
+
+<script language="JavaScript">
+ var search = window.location.search;
+ var strurl= search.substring(search.indexOf("url=")+4,search.indexOf('&'));
+ window.frames["chaptercontent"].location = strurl;
+
+ function GetExercise()
+ {
+         var bookid=search.substring(search.indexOf('bookid=')+7);
+         var chapterid=search.substring(search.indexOf('chapterid=')+10,search.indexOf('&bookid='));
+        var   cleft;   
+        var   ctop;   
+       cleft=(screen.availWidth-800)*.5;   
+       ctop=(screen.availHeight-600)*.5; 
+       if (chapterid != 0)
+       {
+	        var re= window.open("/RailExamBao/Exercise/ExerciseManage.aspx?id="+ bookid +"&ChapterID="+chapterid,"ExerciseManage",'top=0,left=0,width='+(window.screen.width-10)+',height='+(window.screen.height-65)+',resizable=no,status=no scrollbars=yes');
+       }
+       else
+       {
+               var re= window.open("/RailExamBao/Exercise/ExerciseManage.aspx?id="+ bookid,"ExerciseManage",'top=0,left=0,width='+(window.screen.width-10)+',height='+(window.screen.height-65)+',resizable=no,status=no scrollbars=yes');
+       }
+      		       
+       re.focus(); 
+ }
+ 
+ function NextPage()
+ {
+     var bookid=search.substring(search.indexOf('bookid=')+7); 
+	  var chapterid=search.substring(search.indexOf('chapterid=')+10,search.indexOf('&bookid='));
+	 for(var i=0; i<Tree_Chapter.length;i++)
+	 {
+	 		if(Tree_Chapter[i] == chapterid)
+	 		{
+	 			if(Tree_Chapter[i+3])
+	 			{
+			 			window.frames["chaptercontent"].location = Tree_Chapter[i+4];
+			 			window.location = "common.htm?url="+Tree_Chapter[i+4]+"&chapterid="+Tree_Chapter[i+3]+"&bookid="+bookid;
+			 	}
+			 	else
+			 	{
+			 		  alert("已经到最后一页！");
+			 		  return;
+			 	}
+	 		} 
+	 }
+ }
+ 
+ function PrePage()
+ {
+      var bookid=search.substring(search.indexOf('bookid=')+7);  
+	  var chapterid=search.substring(search.indexOf('chapterid=')+10,search.indexOf('&bookid='));
+	 for(var i=0; i<Tree_Chapter.length;i++)
+	 {
+	 		if(Tree_Chapter[i] == chapterid)
+	 		{
+	 			if(Tree_Chapter[i-2])
+	 			{
+	 			   window.frames["chaptercontent"].location = Tree_Chapter[i-2];
+	 			   window.location = "common.htm?url="+Tree_Chapter[i-2]+"&chapterid="+Tree_Chapter[i-3]+"&bookid="+bookid;
+	 		  }
+	 		  else
+	 		  {
+			 		  alert("已经到第一页！");
+			 		  return;	 		  
+			 	}
+	 		} 
+	 }
+ }
+</script>

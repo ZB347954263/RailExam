@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+    <title>JavaScript Tree Menu</title>
+    <style>
+	a, A:link, a:visited, a:active, A:hover
+		{color: #000000; text-decoration: none; font-family: Tahoma, Verdana; font-size: 12px}
+</style>
+</head>
+<body style="background-image: url(icons/bg_left.gif); background-repeat: no-repeat;
+    background-color: #E8F8FD; background-position: left bottom; margin-bottom: 0px;
+    margin-left: 0px; margin-left: 0px; margin-top: 0px; margin: 0px" oncontextmenu='return false'
+    ondragstart='return false' onselectstart='return false' oncopy='document.selection.empty()'
+    onbeforecopy='return false'>
+
+    <script language="JavaScript" src="tree.js"></script>
+    <script language="JavaScript" src="tree_items.js"></script>
+    <script language="JavaScript" src="tree_tpl.js"></script>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="108%">
+        <tr style="background-image: url(icons/bg.gif);">
+            <td style="width: 11%;">
+            </td>
+            <td>
+                <img src="icons/menu.gif" alt="" width="147" height="32" style="border: 0px;" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+
+                <script language="JavaScript">
+	<!--//
+		new tree (TREE_ITEMS, TREE_TPL);
+	//-->
+                </script>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body
+{
+}
+
+.ExamTitle
+{
+	text-align:center;
+	width:80%;
+	font-size:18pt;
+    font-weight:bold;
+}
+
+#ExamName
+{
+    text-align:left;
+	font-size:13pt;
+}
+
+.ExamStyle
+{
+	background-color: #A6A6A6;
+	height: 2px;
+}
+
+#ExamInfo
+{
+	text-align:right;
+	font-size:12pt;
+}
+
+.StudentInfo
+{
+	text-align:left;
+	font-size:11pt;
+	vertical-align:middle;
+}
+
+.StudentTitleInfo
+{
+	font-size:11pt;
+	width:5%;
+	vertical-align:middle;
+}
+
+.StudentTable
+{
+	background-color: #F3F7CA;
+	height:25px;
+}
+
+.NowTimeInfo
+{
+	font-size:13pt;
+	text-align:left;
+}
+
+.TimeInfo
+{
+	font-size:13pt;
+	font-weight:bold;
+	text-align:left;
+	color:Red;
+}
+
+.ExamContent
+{
+    width:100%;
+    height:100%;
+    border:solid 1px #E0E0E0;
+    border-collapse:collapse;
+    background-color:#ffffff;
+}
+
+.ExamContent td
+{
+	border: solid 1px #E0E0E0;
+	padding: 5px;
+	text-align:left;
+}
+
+.ExamBigTitle
+{
+    text-align:left;
+    background-color:#C9F3B4;
+    font-size:16pt;
+}
+
+.ExamAnswer
+{
+	text-align: left;
+	background-color: #EBF9FD;
+	font-size: 12pt;
+}
+
+.ExamAnswerZero
+{
+	text-align: left;
+	background-color: #ffebff;
+	font-size: 12pt;
+}
+
+.ExamStudentAnswer
+{
+	text-align:left;
+	background-color:Orange;	
+	font-size:12pt;
+}
+
+.ExamItemAnswer
+{
+	text-align:left;
+	font-size:12pt;
+}
+
+.ExamItem
+{
+	text-align:left;
+	font-size:12pt;
+    font-weight:bold;
+}
+
+.ExamItemOther
+{
+	vertical-align: top;
+	text-align:left;
+	font-size:12pt;
+    font-weight:bold;
+}
+
+.ExamResultItem
+{
+	text-align:left;
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.ExamButton
+{
+	text-align:center;
+	font-size:24px;
+}
+
+.ExamJudge
+{
+	text-align:left;
+	color:purple;
+}
+
+#progressBackgroundFilter { 
+  position:absolute; 
+  top:0px; 
+  bottom:0px; 
+  left:0px; 
+  right:0px; 
+  overflow:hidden; 
+  padding:0; 
+  margin:0; 
+  background-color:#000;  
+
+  z-index:1000; 
+} 
+
+ 
+
+#processMessage {  
+  position:absolute;  
+  top:30%;  
+  left:43%; 
+  padding:10px; 
+  width:14%; 
+  z-index:1001; 
+  background-color:#fff; 
+} 
+
+.StudentLeftInfo {
+	font-size:12pt;
+	text-align:left;
+	color: #1182ea;
+}
+
+.StudentTableInfo {
+	font-size:10.5pt;
+	text-align:center;
+	color: #1182ea;
+}

@@ -1,0 +1,10 @@
+D:\RailExam\DSunSoft\DSunSoft.Data\bin\Debug\DSunSoft.Data.dll
+D:\RailExam\DSunSoft\DSunSoft.Data\bin\Debug\DSunSoft.Data.pdb
+D:\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\DSunSoft.Data.dll
+D:\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\DSunSoft.Data.pdb
+D:\weixinworkspace\RailExam\RailExam\DSunSoft\DSunSoft.Data\bin\Debug\DSunSoft.Data.dll
+D:\weixinworkspace\RailExam\RailExam\DSunSoft\DSunSoft.Data\bin\Debug\DSunSoft.Data.pdb
+D:\weixinworkspace\RailExam\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\weixinworkspace\RailExam\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\DSunSoft.Data.dll
+D:\weixinworkspace\RailExam\RailExam\DSunSoft\DSunSoft.Data\obj\Debug\DSunSoft.Data.pdb

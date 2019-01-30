@@ -1,0 +1,123 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0px;
+}
+Input
+{
+	border: 1px solid #2277cc;
+}
+
+#userlogin_body
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	background: url(../Images/user_all_bg.gif) #226cc5 repeat-x 50% top;
+	padding-bottom: 0px;
+	margin: 110px 0px 0px;
+	font: 12px/150% Arial, "ËÎÌו" ,Helvetica,sans-serif;
+	padding-top: 0px;
+	text-decoration: none;
+}
+#topbar a:link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#topbar a:visited
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#topbar a:hover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.titleBold12px
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+/*Modal Popup*/
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.modalPopup
+{
+	background-color: #ffffdd;
+	border-width: 3px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+	width: 250px;
+}
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement
+{
+	visibility: hidden;
+	margin: 0px; /*background-color : inherit;*/
+	background-color: white;
+	color: windowtext;
+	border: buttonshadow;
+	border-width: 1px;
+	border-style: solid;
+	cursor: 'default';
+	overflow: auto;
+	text-align: left;
+	list-style-type: none;
+	height: 200px;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #91afdd;
+	color: white;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem
+{
+	background-color: window;
+	color: windowtext;
+	padding: 1px;
+}
+.btn
+{
+	border: 1px solid #2277cc;
+	width: 60px;
+	background-image: url('../images/btnbg.jpg');
+	letter-spacing: 3px;
+}
+
+.style2
+{
+	width: 104px;
+}
+.style3
+{
+	width: 145px;
+}

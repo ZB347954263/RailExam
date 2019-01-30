@@ -1,0 +1,192 @@
+<%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>
+<ComponentArt:Menu 
+  CssClass="MenuGroup"
+  DefaultGroupCssClass="MenuGroup"
+  DefaultItemLookId="DefaultItemLook"
+  DefaultDisabledItemLookId="DisabledItemLook"
+  DefaultGroupItemSpacing="1"
+  ContextMenu="Custom"
+  Orientation="Vertical"
+  ShadowEnabled="true"
+  ExpandDelay="100"
+  ImagesBaseUrl="~/App_Themes/Default/Images/Menu/"
+  ExpandTransition="Fade"
+  CollapseTransition="Fade"
+  runat="server">
+    <ItemLooks>
+      <ComponentArt:ItemLook LookID="TopItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" LabelPaddingLeft="15" LabelPaddingRight="10" LabelPaddingTop="3" LabelPaddingBottom="3" />
+      <ComponentArt:ItemLook LookID="DefaultItemLook3" CssClass="MenuItem" HoverCssClass="MenuItemHover" LabelPaddingLeft="15" LabelPaddingRight="10" LabelPaddingTop="3" LabelPaddingBottom="3" />
+      <ComponentArt:ItemLook LookID="DefaultItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" ExpandedCssClass="MenuItemHover" LeftIconWidth="16" LeftIconHeight="16" LabelPaddingLeft="10" LabelPaddingRight="10" LabelPaddingTop="3" LabelPaddingBottom="4" />
+      <ComponentArt:ItemLook LookID="DisabledItemLook" CssClass="DisabledMenuItem" HoverCssClass="DisabledMenuItemHover" LeftIconWidth="16" LeftIconHeight="16" LabelPaddingLeft="16" LabelPaddingRight="10" LabelPaddingTop="3" LabelPaddingBottom="4" />
+      <ComponentArt:ItemLook LookID="ExpandableItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" LabelPaddingLeft="15" LabelPaddingRight="10" LabelPaddingTop="3" LabelPaddingBottom="3" RightIconUrl="arrow_black.gif" RightIconWidth="15" />
+      <ComponentArt:ItemLook LookID="BreakItem" CssClass="MenuBreak" />
+      <ComponentArt:ItemLook LookID="SpacerItemLook" CssClass="TopMenuItem" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+    </ItemLooks>
+</ComponentArt:Menu>
+
+<ComponentArt:TreeView
+  ShowLines="true" 
+  DisplayMargin="true"
+  DragAndDropEnabled="false" 
+  NodeEditingEnabled="false" 
+  KeyboardEnabled="false"
+  MultipleSelectEnabled="false"
+  ExpandNodeOnSelect="false"
+  CollapseNodeOnSelect="false"
+  LoadingFeedbackCssClass="LoadingFeedback" 
+  LoadingFeedbackText="装载数据..."  
+  CssClass="TreeViewMargin" 
+  HoverNodeCssClass="HoverTreeNode" 
+  MultipleSelectedNodeCssClass="MultipleSelectedTreeNode"
+  NodeCssClass="TreeNode" 
+  NodeRowCssClass="TreeNodeRow" 
+  NodeEditCssClass="NodeEdit"
+  CutNodeCssClass="CutTreeNode"
+  SelectedNodeCssClass="SelectedTreeNode"     
+  DefaultMarginImageWidth="24" 
+  DefaultMarginImageHeight="20" 
+  DefaultImageWidth="16" 
+  DefaultImageHeight="16" 
+  ExpandCollapseImageWidth="19" 
+  ExpandCollapseImageHeight="20"
+  LineImageWidth="19"
+  LineImageHeight="20"
+  MarginWidth="2" 
+  NodeIndent="15"
+  NodeLabelPadding="3"
+  ImagesBaseUrl="~/App_Themes/Default/Images/TreeView/"
+  LineImagesFolderUrl="~/App_Themes/Default/images/TreeView/Lines/"
+  ParentNodeImageUrl="folders.gif" 
+  LeafNodeImageUrl="folder.gif" 
+  CollapseImageUrl="exp.gif"
+  ExpandImageUrl="col.gif" 
+  NoExpandImageUrl="noexp.gif" 
+  runat="server" />
+
+<ComponentArt:NavBar Width="100%" Height="100%"
+  CssClass="TopGroup"
+  ExpandSinglePath="true"
+  FullExpand="true"
+  DefaultItemSpacing="0"
+  ExpandTransition="Fade"
+  ExpandDuration="200"
+  CollapseTransition="Fade"
+  CollapseDuration="200"
+  DefaultItemTextAlign="center"
+  DefaultItemLookID="TopItemLook"
+  DefaultSelectedItemLookId="Level2SelectedItemLook"
+  ImagesBaseUrl="~/App_Themes/Default/Images/NavBar/"
+  runat="server">
+<ItemLooks>
+  <ComponentArt:ItemLook LookID="TopItemLook" CssClass="TopItem" HoverCssClass="TopItemHover" ActiveCssClass="TopItemActive" LabelPaddingLeft=0 LabelPaddingRight=0 LabelPaddingTop=3 LabelPaddingBottom=3 />
+  <ComponentArt:ItemLook LookID="Level2ItemLook" CssClass="Level2Item" HoverCssClass="Level2ItemHover" ActiveCssClass="Level2ItemActive" LabelPaddingLeft=0 LabelPaddingRight=0 LabelPaddingTop=3 LabelPaddingBottom=3 />
+  <ComponentArt:ItemLook LookID="Level2SelectedItemLook" CssClass="Level2ItemActive" HoverCssClass="Level2ItemActive" ActiveCssClass="Level2ItemActive" LabelPaddingLeft=0 LabelPaddingRight=0 LabelPaddingTop=3 LabelPaddingBottom=3 />
+</ItemLooks>
+</ComponentArt:NavBar>
+
+<ComponentArt:Splitter runat="server" FillHeight="true" FillWidth="true" ImagesBaseUrl="~/App_Themes/Default/Images/Splitter/">
+</ComponentArt:Splitter>
+
+<ComponentArt:TabStrip 
+  runat="server"
+  DefaultGroupCssClass="TopTabGroup"
+  DefaultItemLookId="TopLevelTabLook"
+  DefaultSelectedItemLookId="SelectedTopLevelTabLook"
+  DefaultChildSelectedItemLookId="SelectedTopLevelTabLook">
+    <ItemLooks>
+      <ComponentArt:ItemLook LookId="TopLevelTabLook" CssClass="TopLevelTab" HoverCssClass="TopLevelTabHover" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+      <ComponentArt:ItemLook LookId="SelectedTopLevelTabLook" CssClass="SelectedTopLevelTab" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4"  />
+      <ComponentArt:ItemLook LookId="Level2TabLook" CssClass="Level2Tab" HoverCssClass="Level2TabHover" LabelPaddingLeft="5" LabelPaddingRight="10" LabelPaddingTop="2" LabelPaddingBottom="2" />
+      <ComponentArt:ItemLook LookId="SelectedLevel2TabLook" CssClass="SelectedLevel2Tab" LabelPaddingLeft="5" LabelPaddingRight="10" LabelPaddingTop="2" LabelPaddingBottom="2"  />
+    </ItemLooks>
+</ComponentArt:TabStrip>
+
+<ComponentArt:MultiPage runat="server" Width="100%" Height="100%"></ComponentArt:MultiPage>
+<ComponentArt:SiteMap width="350" height="20"
+  CssClass="SiteMap"
+  RootNodeCssClass="RootNode"
+  ParentNodeCssClass="ParentNode"
+  LeafNodeCssClass="LeafNode"
+  SiteMapLayout="Breadcrumbs"
+  BreadcrumbsSeparatorString=">"
+  runat="server">
+</ComponentArt:SiteMap>
+                
+<ComponentArt:Grid 
+  CssClass="Grid" 
+  FooterCssClass="GridFooter"
+  PagerStyle="Slider"
+  PagerTextCssClass="PagerText"
+  PagerInfoClientTemplateId="PagerInfoTemplate"
+  SliderHeight="16"
+  SliderWidth="150"
+  SliderGripWidth="13" 
+  SliderPopupOffsetX="35"
+  SliderPopupClientTemplateId="SliderTemplate"
+  LoadingPanelClientTemplateId="LoadingFeedbackTemplate"
+  LoadingPanelEnabled="true" 
+  LoadingPanelPosition="MiddleCenter"  
+  PageSize="20"  
+  ImagesBaseUrl="~/App_Themes/Default/Images/Grid/"
+  PagerImagesFolderUrl="~/App_Themes/Default/Images/Grid/Pager"
+  runat="server">
+  <Levels>
+    <ComponentArt:GridLevel
+      HeadingCellCssClass="HeadingCell" 
+      HeadingRowCssClass="HeadingRow" 
+      HeadingTextCssClass="HeadingCellText"
+      DataCellCssClass="DataCell" 
+      RowCssClass="DataRow" 
+      SelectedRowCssClass="SelectedRow"
+      SortAscendingImageUrl="asc.gif" 
+      SortDescendingImageUrl="desc.gif" 
+      SortImageWidth="10"
+      SortImageHeight="10">
+     </ComponentArt:GridLevel>
+   </Levels>
+    <ClientTemplates>
+        <ComponentArt:ClientTemplate ID="LoadingFeedbackTemplate">
+            <table cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td>
+                        <img src="../App_Themes/Default/Images/Grid/spinner.gif" width="80" height="16"
+                            border="0">
+                    </td>
+                </tr>
+            </table>
+        </ComponentArt:ClientTemplate>
+        <ComponentArt:ClientTemplate Id="SliderTemplate">
+            <div class="SliderPopup">
+                第 <b>## DataItem.PageIndex + 1 ##</b> / <b>## Parent.PageCount ##</b> 页
+                <br>
+                第 <b>## DataItem.Index + 1 ##</b> - <b>## ((DataItem.PageIndex + 1) < Parent.PageCount) ? (DataItem.Index + 1 + Parent.PageSize) : Parent.RecordCount ##</b> / <b>## Parent.RecordCount ##</b> 条记录
+            </div>
+        </ComponentArt:ClientTemplate>
+        <ComponentArt:ClientTemplate Id="PagerInfoTemplate">
+            <div class="PagerInfo">
+                第 <b>## Parent.CurrentPageIndex + 1 ##</b> / <b>## Parent.PageCount ##</b> 页  （共 <b>## Parent.RecordCount ##</b> 条记录）
+            </div>
+        </ComponentArt:ClientTemplate>
+    </ClientTemplates>
+</ComponentArt:Grid>
+
+<asp:FormView 
+    runat="server" 
+    Width="100%" 
+    HorizontalAlign="Left" 
+    CellPadding="0" 
+    CellSpacing="0"
+    BorderWidth="0">
+</asp:FormView>
+ <yyc:SmartGridView runat="server"  AutoGenerateColumns="False" Width="100%" CellPadding="4" AllowPaging="true" PageSize="22" CssClass="gridview_m">
+    <HeaderStyle CssClass="HeadingRow" Font-Bold="true" Font-Names="宋体" ForeColor="#2D61BA" Font-Size="12px" HorizontalAlign="Center"  VerticalAlign="Middle" />
+    <AlternatingRowStyle BackColor="White" HorizontalAlign="Center" VerticalAlign="Middle" Font-Names="宋体" Font-Size="12px"/>
+    <RowStyle BackColor="#EFF3FB" HorizontalAlign="Center" VerticalAlign="Middle" Font-Names="宋体" Font-Size="12px"/>
+    <SelectedRowStyle BackColor="#FFEEC2"  />
+    <EmptyDataRowStyle ForeColor="Red" HorizontalAlign="Center" VerticalAlign="Middle" />
+    <EmptyDataTemplate></EmptyDataTemplate>
+    <SmartSorting AllowMultiSorting="True" AllowSortTip="true" SortAscImageUrl="~/App_Themes/Default/Images/Grid/asc.gif"  SortDescImageUrl="~/App_Themes/Default/Images/Grid/desc.gif" />
+        <CustomPagerSettings PagingMode="Webabcd" TextFormat="<font color='#3366FF' size='2px'>每页<b>{0}</b>条  /共<b>{1}</b>条第<b>{2}</b>页/共<b>{3}</b>页      </font>" />
+        <PagerSettings Position="Bottom" PageButtonCount="10" FirstPageText="首页" PreviousPageText="上一页"
+            NextPageText="下一页" LastPageText="末页" />
+</yyc:SmartGridView>

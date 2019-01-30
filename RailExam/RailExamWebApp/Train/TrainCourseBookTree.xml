@@ -1,0 +1,11 @@
+<items>
+	<item Text="展开" Look-LeftIconUrl="icon_properties.gif" Look-HoverLeftIconUrl="icon_properties_over.gif" />
+	<item Text="折叠" Look-LeftIconUrl="icon_properties.gif" Look-HoverLeftIconUrl="icon_properties_over.gif" />
+	<item Text="展开全部" Look-LeftIconUrl="icon_properties.gif" Look-HoverLeftIconUrl="icon_properties_over.gif" />
+	<item Text="折叠全部" Look-LeftIconUrl="icon_properties.gif" Look-HoverLeftIconUrl="icon_properties_over.gif" />
+	<item LookId="BreakItem" AutoPostBackOnSelect="false" />
+	<item Text="编辑" Look-LeftIconUrl="icon_properties.gif" Look-HoverLeftIconUrl="icon_properties_over.gif" />
+	<item LookId="BreakItem" AutoPostBackOnSelect="false" />
+	<item Text="保存" Look-LeftIconUrl="icon_save.gif" Look-HoverLeftIconUrl="icon_save_over.gif" />
+	<item Text="取消" Look-LeftIconUrl="icon_undo.gif" Look-HoverLeftIconUrl="icon_undo.gif" />
+</items>

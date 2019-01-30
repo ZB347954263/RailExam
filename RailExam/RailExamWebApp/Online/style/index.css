@@ -1,0 +1,175 @@
+body
+{
+	margin:0;
+	border:0;
+	padding:0;
+    background-image: url(/RailExamBao/images/new/bg3.jpg);
+	position:relative;
+}
+
+#MainArea
+{
+	width:800px;
+	height:600px;
+	border:0px;
+	background-image: url(/RailExamBao/images/new/index.png);
+	background-repeat: no-repeat;
+	text-align:left;
+	position:relative;
+}
+
+.StudyArea a
+{
+	background-image: url(/RailExamBao/images/new/study.png);
+	top: 185px;
+	left: 110px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+.StudyArea a:hover
+{
+	background-image: url(/RailExamBao/images/new/study_h.png);
+	top: 185px;
+	left: 110px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+.ExamArea a
+{
+	background-image: url(/RailExamBao/images/new/kaoshi.png);
+	top: 130px;
+	left: 315px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+.ExamArea a:hover
+{
+	background-image: url(/RailExamBao/images/new/kaoshi_h.png);
+	top: 130px;
+	left: 315px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+#EmployeeArea
+{
+	top: 161px;
+	left: 570px;
+	width:156px;
+	height:51px;
+	position:relative;
+}
+
+
+.OnlineSelectLogin a
+{
+	background-image: url(/RailExamBao/images/new/chaxun.png);
+	top: 76px;
+	left: 520px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+.OnlineSelectLogin a:hover
+{
+	background-image: url(/RailExamBao/images/new/chaxun_h.png);
+	top: 76px;
+	left: 520px;
+	width:169px;
+	height:54px;
+	position:relative;
+}
+
+#IndexStudy
+{
+	width:156px;
+	height:51px;
+	position:relative;
+}
+
+#IndexExam
+{
+	width:156px;
+	height:51px;
+	position:relative;
+}
+
+#FunctionArea
+{
+	left: 600px; 
+	top: 245px;
+	height:16px;
+	position:relative;
+}
+
+.Function
+{
+	padding:0px;
+}
+
+.FunctionName
+{
+	font-size:14px;
+    color:white;
+    font-family:ËÎÌו;
+    cursor:hand;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.FunctionBarLeft
+{
+	background-image: url(/RailExamBao/Online/image/FunctionBarLeft.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+.FunctionBarRight
+{
+	background-image:url(/RailExamBao/Online/image/FunctionBarRight.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+img
+{
+	border:0;
+}
+
+.sm_l ul .zj {
+	height: 65px;
+	width: 214px;
+}
+
+.sm_l ul .zj a {
+	background-image: url(/RailExamBao/images/new/font.png);
+	background-repeat: no-repeat;
+	background-position: -18px -110px;
+	display: block;
+	height: 65px;
+	width: 214px;
+}
+
+.sm_l ul .zj a:hover {
+	background-image: url(/RailExamBao/images/new/font.png);
+	background-repeat: no-repeat;
+	background-position: -235px -15px;
+	display: block;
+	height: 65px;
+	width: 214px;
+}

@@ -1,0 +1,164 @@
+body
+{
+	margin:0;
+	border:0;
+	padding:0;
+    background-image: url(/RailExamBao/images/new/bg3.jpg);
+	position:relative;
+}
+
+#MainArea
+{
+	width:800px;
+	height:600px;
+	border:0px;
+	background-image: url(/RailExamBao/images/new/OnlineStudy_bg.png);
+	background-repeat: no-repeat;
+	text-align:left;
+	position:relative;
+}
+
+#FunctionArea
+{
+	left: 620px; 
+	top: 260px;
+	height:16px;
+	position:relative;
+}
+
+.Function
+{
+	padding:0px;
+}
+
+.FunctionName
+{
+	font-size:14px;
+    color:white;
+    font-family:ËÎÌו;
+    cursor:hand;
+    font-weight:bold;
+    height:16px;
+    line-height:16px;
+    vertical-align:middle;
+    padding:3px;
+}
+
+.FunctionBarLeft
+{
+	background-image: url(/RailExamBao/Online/image/FunctionBarLeft.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+.FunctionBarRight
+{
+	background-image:url(/RailExamBao/Online/image/FunctionBarRight.gif);
+	width:31px;
+	height:16px;
+	background-repeat:no-repeat;
+	vertical-align:middle;
+}
+
+#OnlineBook
+{
+	top: 121px;
+	left: 570px;
+	width:156px;
+	height:51px;
+	position:relative;
+}
+
+.OnlineStudyArea a
+{
+	background-image: url(/RailExamBao/images/new/ziyou.png);
+	top: 211px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+.OnlineStudyArea a:hover
+{
+	background-image: url(/RailExamBao/images/new/ziyou_h.png);
+	top: 211px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+.OnlineSelect a
+{
+	background-image: url(/RailExamBao/images/new/gangwei.png);
+	top: 221px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+.OnlineSelect a:hover
+{
+	background-image: url(/RailExamBao/images/new/gangwei_h.png);
+	top: 221px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+.OnlineFreeExam a
+{
+	background-image: url(/RailExamBao/images/new/zaixian.png);
+	top: 231px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+.OnlineFreeExam a:hover
+{
+	background-image: url(/RailExamBao/images/new/zaixian_h.png);
+	top: 231px;
+	left: 455px;
+	width:140px;
+	height:49px;
+	position:relative;
+}
+
+#OnlineFreeExam
+{
+	top: 181px;
+	left: 570px;
+	width:156px;
+	height:51px;
+	position:relative;
+}
+
+#FreedomStudy
+{
+	width:228px;
+	height:38px;
+}
+
+#SelectStudy
+{
+	width:228px;
+	height:38px;
+}
+
+#AssistStudy
+{
+	width:215px;
+	height:236px;
+}
+
+img
+{
+	border:0;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>系统滚动条</title>
+
+    <script type="text/javascript">
+         //设置进度条进度
+          function SetPorgressBar(msg, pos)
+         {
+             ProgressBar.style.width= pos + "%";
+             WriteText("Msg1",msg + " 已完成" + pos + "%");
+        }
+         
+         //设置进度条完成信息
+         function SetCompleted(msg)
+         {
+             if(msg=="")
+            { 
+                 WriteText("Msg1","完成。");
+             }
+             else
+            { 
+                 WriteText("Msg1",msg);
+            }    
+         }
+         
+        // 更新文本显示信息
+         function WriteText(id, str)
+        {
+            var strTag = '<font face="Verdana, Arial, Helvetica" size="2" color="#ea9b02"><B>' + str + '</B></font>';    
+            if (document.all) document.all[id].innerHTML = strTag;
+        }
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="vertical-align: middle; height: 30px;">
+            <tr>
+                <td>
+                    <div id="Msg1">
+                        <font face="Verdana, Arial, Helvetica" size="2" color="#ea9b02"><b>正在加载</b></font></div>
+                    <div id="ProgressBarSide" style="color: Silver; border-width: 1px; border-style: Solid;
+                        width: 300px;">
+                        <div id="ProgressBar" style="background-color: #3366FF; height: 21px; width: 0%;">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

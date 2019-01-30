@@ -1,0 +1,58 @@
+body
+{
+    background:url(icons/bg_right.gif);
+}
+
+#booktitle
+{
+	font-weight: bold;
+	font-size: 36px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}
+
+#orgtitle
+{
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}
+
+#datetitle
+{
+	font-weight: bold;
+	font-size: 24px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}
+
+#chaptertitle1
+{
+	font-weight  : bold;
+	font-size: 24px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}
+
+#chaptertitle2
+{
+	font-weight  : bold;
+	font-size: 16px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}
+
+#chaptertitle3
+{
+	font-weight  : bold;
+	font-size: 16px;
+	color: black;
+	font-family: 宋体;
+	text-align:center;
+}

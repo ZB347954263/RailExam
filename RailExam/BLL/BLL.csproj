@@ -1,0 +1,191 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56F1F1B1-43DB-49C8-99AC-FBFA9F0046CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssistBookBLL.cs" />
+    <Compile Include="AssistBookCategoryBLL.cs" />
+    <Compile Include="AssistBookChapterBLL.cs" />
+    <Compile Include="AssistBookTrainTypeBLL.cs" />
+    <Compile Include="AssistBookUpdateBLL.cs" />
+    <Compile Include="BookBLL.cs" />
+    <Compile Include="BookChapterBLL.cs" />
+    <Compile Include="BookUpdateBLL.cs" />
+    <Compile Include="BookTrainTypeBLL.cs" />
+    <Compile Include="BulletinBLL.cs" />
+    <Compile Include="CommitteeHeadShipBLL.cs" />
+    <Compile Include="CoursewareBLL.cs" />
+    <Compile Include="CoursewareTrainTypeBLL.cs" />
+    <Compile Include="CoursewareTypeBLL.cs" />
+    <Compile Include="EducationEmployeeTypeBLL.cs" />
+    <Compile Include="EducationLevelBLL.cs" />
+    <Compile Include="EmployeeBLL.cs" />
+    <Compile Include="EmployeeDetailBLL.cs" />
+    <Compile Include="EmployeeErrorBLL.cs" />
+    <Compile Include="EmployeeRailEduBLL.cs" />
+    <Compile Include="EmployeeTransferBLL.cs" />
+    <Compile Include="ExamArrangeBLL.cs" />
+    <Compile Include="ExamBLL.cs" />
+    <Compile Include="ExamCategoryBLL.cs" />
+    <Compile Include="ExamJudgeStatusBLL.cs" />
+    <Compile Include="ExamResultAnswerBLL.cs" />
+    <Compile Include="ExamResultBLL.cs" />
+    <Compile Include="ExamResultStatusBLL.cs" />
+    <Compile Include="ExamResultUpdateBLL.cs" />
+    <Compile Include="ExamStatusBLL.cs" />
+    <Compile Include="ExamTypeBLL.cs" />
+    <Compile Include="FunctionRightBLL.cs" />
+    <Compile Include="ImportanceBLL.cs" />
+    <Compile Include="ItemBLL.cs" />
+    <Compile Include="ItemCategoryBLL.cs" />
+    <Compile Include="ItemConfigBLL.cs" />
+    <Compile Include="ItemDifficultyBLL.cs" />
+    <Compile Include="ItemStatusBLL.cs" />
+    <Compile Include="ItemTypeBLL.cs" />
+    <Compile Include="KnowledgeBLL.cs" />
+    <Compile Include="OrgConfigBLL.cs" />
+    <Compile Include="OrgImportBLL.cs" />
+    <Compile Include="PaperStatusBLL.cs" />
+    <Compile Include="PoliticalStatusBLL.cs" />
+    <Compile Include="PostImportBLL.cs" />
+    <Compile Include="RandomExamApplyBLL.cs" />
+    <Compile Include="RandomExamArrangeBLL.cs" />
+    <Compile Include="RandomExamBLL.cs" />
+    <Compile Include="RandomExamComputerServerBLL.cs" />
+    <Compile Include="RandomExamCountBLL.cs" />
+    <Compile Include="RandomExamCountStatisticBLL.cs" />
+    <Compile Include="RandomExamItemBLL.cs" />
+    <Compile Include="RandomExamModularTypeBLL.cs" />
+    <Compile Include="RandomExamResultAnswerStationBLL.cs" />
+    <Compile Include="RandomExamResultCurrentBLL.cs" />
+    <Compile Include="RandomExamResultAnswerBLL.cs" />
+    <Compile Include="RandomExamResultAnswerCurrentBLL.cs" />
+    <Compile Include="RandomExamResultBLL.cs" />
+    <Compile Include="RandomExamStatisticBLL.cs" />
+    <Compile Include="RandomExamStrategyBLL.cs" />
+    <Compile Include="RandomExamSubjectBLL.cs" />
+    <Compile Include="RandomExamTrainClassBLL.cs" />
+    <Compile Include="RandomExamTrainClassHaBLL.cs" />
+    <Compile Include="RefreshSnapShotBLL.cs" />
+    <Compile Include="SynchronizeBLL.cs" />
+    <Compile Include="SynchronizeLogBLL.cs" />
+    <Compile Include="SystemLogBLL.cs" />
+    <Compile Include="LoginUserBLL.cs" />
+    <Compile Include="NoticeBLL.cs" />
+    <Compile Include="OrganizationBLL.cs" />
+    <Compile Include="OtherKnowledgeBLL.cs" />
+    <Compile Include="PaperBLL.cs" />
+    <Compile Include="PaperCategoryBLL.cs" />
+    <Compile Include="PaperItemBLL.cs" />
+    <Compile Include="PaperStrategyBLL.cs" />
+    <Compile Include="PaperStrategyBookChapterBLL.cs" />
+    <Compile Include="PaperStrategyItemCategoryBLL.cs" />
+    <Compile Include="PaperStrategySubjectBLL.cs" />
+    <Compile Include="PaperSubjectBLL.cs" />
+    <Compile Include="PostBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegulationBLL.cs" />
+    <Compile Include="RegulationCategoryBLL.cs" />
+    <Compile Include="SystemRoleBLL.cs" />
+    <Compile Include="SystemRoleRightBLL.cs" />
+    <Compile Include="SystemFunctionBLL.cs" />
+    <Compile Include="SystemUserLoginBLL.cs" />
+    <Compile Include="SystemVersionBLL.cs" />
+    <Compile Include="TaskJudgeStatusBLL.cs" />
+    <Compile Include="TaskResultAnswerBLL.cs" />
+    <Compile Include="TaskResultBLL.cs" />
+    <Compile Include="TaskResultStatusBLL.cs" />
+    <Compile Include="TechnicianTitleTypeBLL.cs" />
+    <Compile Include="TechnicianTypeBLL.cs" />
+    <Compile Include="TrainCourseBLL.cs" />
+    <Compile Include="TrainCourseBookBLL.cs" />
+    <Compile Include="TrainCourseCoursewareBLL.cs" />
+    <Compile Include="TrainEmployeeBLL.cs" />
+    <Compile Include="TrainPlanBLL.cs" />
+    <Compile Include="TrainPlanCourseBLL.cs" />
+    <Compile Include="TrainPlanEmployeeBLL.cs" />
+    <Compile Include="TrainPlanStatusBLL.cs" />
+    <Compile Include="TrainStandardBLL.cs" />
+    <Compile Include="TrainTypeBLL.cs" />
+    <Compile Include="SystemUserBLL.cs" />
+    <Compile Include="TrainTypeExerciseBLL.cs" />
+    <Compile Include="TrainTypeTaskBLL.cs" />
+    <Compile Include="WorkGroupLeaderLevelBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DSunSoft\DSunSoft.Web\DSunSoft.Web.csproj">
+      <Project>{15453DBD-F8EE-48BA-903A-70E36D370A78}</Project>
+      <Name>DSunSoft.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{89BD63BD-ECEF-41E8-8D5C-70A14D911B03}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{7C663A42-5CC5-49E5-B0E0-937BD4E73455}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Microsoft.Practices.ObjectBuilder.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,261 @@
+<%@ Register Assembly="ComponentArt.Web.UI" Namespace="ComponentArt.Web.UI" TagPrefix="ComponentArt" %>
+
+<ComponentArt:Menu 
+  CssClass="TopGroup"
+  DefaultGroupCssClass="MenuGroup"
+  DefaultItemLookId="DefaultItemLook"
+  DefaultDisabledItemLookId="DisabledItemLook"
+  DefaultSubGroupExpandOffsetX="-10"
+  DefaultSubGroupExpandOffsetY="-5"
+  TopGroupItemSpacing="1"
+  DefaultGroupItemSpacing="2"
+  ImagesBaseUrl="~/App_Themes/Outlook/Images/Menu/"
+  ExpandDelay="100"
+  runat="server">
+<ItemLooks>
+  <ComponentArt:ItemLook LookID="TopItemLook" CssClass="TopMenuItem" HoverCssClass="TopMenuItemHover" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookID="DefaultItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" ExpandedCssClass="MenuItemExpanded" ActiveCssClass="MenuItemExpanded" LabelPaddingLeft="18" LabelPaddingRight="12" LabelPaddingTop="3" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookID="DisabledItemLook" CssClass="DisabledMenuItem" HoverCssClass="DisabledMenuItemHover" LabelPaddingLeft="18" LabelPaddingRight="12" LabelPaddingTop="3" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookID="ExpandableItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" ExpandedCssClass="MenuItemExpanded" RightIconUrl="arrow.gif" RightIconWidth="20" LabelPaddingLeft="18" LabelPaddingRight="12" LabelPaddingTop="3" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookID="SpacerItemLook" CssClass="TopMenuItem" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookID="BreakItem" ImageUrl="break.gif" CssClass="MenuBreak" ImageHeight="2" ImageWidth="100%" />
+</ItemLooks>
+</ComponentArt:Menu>
+
+<ComponentArt:TreeView Height="380" Width="260" 
+  CssClass="TreeView" 
+  NodeCssClass="TreeNode" 
+  SelectedNodeCssClass="SelectedTreeNode" 
+  MultipleSelectedNodeCssClass="MultipleSelectedTreeNode"
+  HoverNodeCssClass="HoverTreeNode"
+  NodeEditCssClass="NodeEdit"
+  CutNodeCssClass="CutTreeNode"
+  MarginWidth="24"
+  DefaultMarginImageWidth="24"
+  DefaultMarginImageHeight="20"
+  LineImageWidth="19" 
+  LineImageHeight="20"
+  DefaultImageWidth="16" 
+  DefaultImageHeight="16"
+  NodeLabelPadding="3"
+  ParentNodeImageUrl="folders.gif" 
+  LeafNodeImageUrl="folder.gif" 
+  CollapseImageUrl="exp.gif" 
+  ExpandImageUrl="col.gif" 
+  ExpandCollapseImageWidth="19"
+  ExpandCollapseImageHeight="20"
+  ShowLines="true" 
+  ImagesBaseUrl="~/App_Themes/Outlook/Images/TreeView/"
+  LineImagesFolderUrl="~/App_Themes/Outlook/Images/TreeView/lines/"
+  runat="server" >
+  <CustomAttributeMappings>
+    <ComponentArt:CustomAttributeMapping From="CustomImageUrl" To="ImageUrl" /> 
+  </CustomAttributeMappings>
+</ComponentArt:TreeView>
+
+<ComponentArt:NavBar Width="200" Height="380" 
+  CssClass="NavBar" 
+  DefaultItemLookID="TopItemLook"
+  ExpandSinglePath="true"
+  FullExpand="true"
+  ImagesBaseUrl="~/App_Themes/Outlook/Images/NavBar/"
+  ShowScrollBar="false"
+  ExpandTransition="Fade"
+  ExpandDuration="200"
+  CollapseTransition="Fade"
+  CollapseDuration="200"
+  runat="server" >
+<ItemLooks>
+  <ComponentArt:ItemLook LookID="TopItemLook" CssClass="TopItem" HoverCssClass="TopItemHover" LabelPaddingLeft="15" LabelPaddingTop="7" LabelPaddingBottom="6" />
+  <ComponentArt:ItemLook LookID="Level2ItemLook" LabelPaddingLeft="10" CssClass="Level2Item" HoverCssClass="Level2ItemHover" LeftIconWidth="16" LeftIconHeight="16" />
+  <ComponentArt:ItemLook LookID="EmptyLook" CssClass="Empty" />
+</ItemLooks>
+<CustomAttributeMappings>
+  <ComponentArt:CustomAttributeMapping From="DefaultSubItemLookId" To="DefaultSubItemLookId" /> 
+  <ComponentArt:CustomAttributeMapping From="SubGroupCssClass" To="SubGroupCssClass" /> 
+  <ComponentArt:CustomAttributeMapping From="SubGroupItemSpacing" To="SubGroupItemSpacing" /> 
+  <ComponentArt:CustomAttributeMapping From="Expanded" To="Expanded" /> 
+  <ComponentArt:CustomAttributeMapping From="Look-LeftIconUrl" To="Look-LeftIconUrl" /> 
+</CustomAttributeMappings>
+</ComponentArt:NavBar>
+
+<ComponentArt:TabStrip 
+  DefaultGroupCssClass="TopTabGroup"
+  DefaultItemLookId="TopLevelTabLook"
+  DefaultSelectedItemLookId="SelectedTopLevelTabLook"
+  DefaultChildSelectedItemLookId="SelectedTopLevelTabLook"
+  DefaultGroupTabSpacing="0"
+  ImagesBaseUrl="~/App_Themes/Outlook/Images/TabStrip/"
+  Width="500" Height="48"
+  runat="server">
+<ItemLooks>
+  <ComponentArt:ItemLook LookId="TopLevelTabLook" CssClass="TopLevelTab" HoverCssClass="TopLevelTabHover" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookId="SelectedTopLevelTabLook" CssClass="SelectedTopLevelTab" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4"  />
+  <ComponentArt:ItemLook LookId="Level2TabLook" CssClass="Level2Tab" HoverCssClass="Level2TabHover" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4" />
+  <ComponentArt:ItemLook LookId="SelectedLevel2TabLook" CssClass="SelectedLevel2Tab" LabelPaddingLeft="15" LabelPaddingRight="15" LabelPaddingTop="4" LabelPaddingBottom="4"  />
+</ItemLooks>
+<CustomAttributeMappings>
+  <ComponentArt:CustomAttributeMapping From="SubGroupCssClass" To="SubGroupCssClass" /> 
+  <ComponentArt:CustomAttributeMapping From="DefaultSubItemLookId" To="DefaultSubItemLookId" /> 
+  <ComponentArt:CustomAttributeMapping From="DefaultSubItemSelectedLookId" To="DefaultSubItemSelectedLookId" /> 
+  <ComponentArt:CustomAttributeMapping From="SubGroupTabSpacing" To="SubGroupTabSpacing" /> 
+</CustomAttributeMappings>
+</ComponentArt:TabStrip>
+
+<ComponentArt:SiteMap Width="300" Height="370" 
+  SiteMapLayout="Tree"
+  TreeShowLines="true" 
+  TreeLineImagesFolderUrl="~/App_Themes/Outlook/Images/SiteMap/"
+  TreeLineImageWidth="19"
+  TreeLineImageHeight="20"
+  CssClass="SiteMap"
+  RootNodeCssClass="RootNode"
+  ParentNodeCssClass="ParentNode"
+  LeafNodeCssClass="LeafNode"
+  runat="server">
+  <table>
+    <ComponentArt:SiteMapTableRow>
+      <ComponentArt:SiteMapTableCell RootNodes="4" valign="top"></ComponentArt:SiteMapTableCell>
+    </ComponentArt:SiteMapTableRow>
+  </table>      
+</ComponentArt:SiteMap>
+
+<ComponentArt:Grid 
+  RunningMode="Client" 
+  CssClass="Grid" 
+  ShowHeader="true"
+  HeaderCssClass="GridHeader" 
+  FooterCssClass="GridFooter" 
+  GroupByCssClass="GroupByCell"
+  GroupByTextCssClass="GroupByText"
+  PageSize="15" 
+  PagerStyle="Slider" 
+	PagerTextCssClass="GridFooterText"
+	PagerButtonWidth="41"
+	PagerButtonHeight="22"
+  SliderHeight="15"
+  SliderWidth="150" 
+  SliderGripWidth="9" 
+  SliderPopupOffsetX="20"
+  SliderPopupClientTemplateId="SliderTemplate" 
+  GroupingPageSize="5"
+  PreExpandOnGroup="false"
+  ImagesBaseUrl="~/App_Themes/Outlook/Images/Grid"
+  PagerImagesFolderUrl="~/App_Themes/Outlook/Images/Grid/pager"
+  TreeLineImagesFolderUrl="~/App_Themes/Outlook/Images/Grid/lines" 
+  TreeLineImageWidth="22" 
+  TreeLineImageHeight="19" 
+  IndentCellWidth="22" 
+  GroupingNotificationTextCssClass="GridHeaderText"
+  GroupBySortAscendingImageUrl="group_asc.gif"
+  GroupBySortDescendingImageUrl="group_desc.gif"
+  GroupBySortImageWidth="10"
+  GroupBySortImageHeight="10"
+  LoadingPanelClientTemplateId="LoadingFeedbackTemplate"
+  LoadingPanelPosition="MiddleCenter"
+  runat="server">
+  <Levels>
+    <ComponentArt:GridLevel
+      DataKeyField="PostId"
+      ShowTableHeading="false" 
+      ShowSelectorCells="false" 
+      RowCssClass="Row" 
+      ColumnReorderIndicatorImageUrl="reorder.gif"
+      DataCellCssClass="DataCell" 
+      HeadingCellCssClass="HeadingCell" 
+      HeadingCellHoverCssClass="HeadingCellHover" 
+      HeadingCellActiveCssClass="HeadingCellActive" 
+      HeadingRowCssClass="HeadingRow" 
+      HeadingTextCssClass="HeadingCellText"
+      SelectedRowCssClass="SelectedRow"
+      GroupHeadingCssClass="GroupHeading" 
+      SortAscendingImageUrl="asc.gif" 
+      SortDescendingImageUrl="desc.gif" 
+      SortImageWidth="10" 
+      SortImageHeight="19" >
+      <Columns>
+        <ComponentArt:GridColumn DataField="PriorityIcon" Align="Center" DataCellClientTemplateId="PriorityIconTemplate" HeadingCellCssClass="FirstHeadingCell" DataCellCssClass="FirstDataCell" HeadingImageUrl="icon_priority.gif" HeadingImageWidth="9" HeadingImageHeight="14" AllowGrouping="false" SortedDataCellCssClass="SortedDataCell" Width="12" FixedWidth="True" />
+        <ComponentArt:GridColumn DataField="EmailIcon" Align="Center" DataCellClientTemplateId="EmailIconIconTemplate" HeadingImageUrl="icon_icon.gif" HeadingImageWidth="14" HeadingImageHeight="16" AllowGrouping="false" SortedDataCellCssClass="SortedDataCell" Width="20" FixedWidth="True" />
+        <ComponentArt:GridColumn DataField="AttachmentIcon" Align="Center" DataCellClientTemplateId="AttachmentIconTemplate" HeadingImageUrl="icon_attachment.gif" HeadingImageWidth="12" HeadingImageHeight="16" AllowGrouping="false" SortedDataCellCssClass="SortedDataCell" Width="12" FixedWidth="True" />
+        <ComponentArt:GridColumn DataField="Subject" SortedDataCellCssClass="SortedDataCell" />
+        <ComponentArt:GridColumn DataField="LastPostDate" HeadingText="Received" FormatString="MMM dd yyyy, hh:mm tt" SortedDataCellCssClass="SortedDataCell" />
+        <ComponentArt:GridColumn DataField="StartedBy" SortedDataCellCssClass="SortedDataCell" Width="80" /> 
+        <ComponentArt:GridColumn DataField="TotalViews" DefaultSortDirection="Descending" SortedDataCellCssClass="SortedDataCell" Width="80" />
+        <ComponentArt:GridColumn DataField="FlagIcon" Align="Center" DataCellClientTemplateId="FlagIconTemplate" DataCellCssClass="LastDataCell" HeadingImageUrl="icon_flag.gif" HeadingImageWidth="16" HeadingImageHeight="14" AllowGrouping="false" SortedDataCellCssClass="SortedDataCell" Width="20" FixedWidth="True" />
+        <ComponentArt:GridColumn DataField="PostId" Visible="false" />
+      </Columns>
+    </ComponentArt:GridLevel>
+  </Levels>
+  <ClientTemplates>
+    <ComponentArt:ClientTemplate Id="PriorityIconTemplate">
+      <img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("PriorityIcon").Value ##" width="8" height="10" border="0" >           
+    </ComponentArt:ClientTemplate>
+
+    <ComponentArt:ClientTemplate Id="EmailIconIconTemplate">
+      <img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("EmailIcon").Value ##" width="20" height="15" border="0" >           
+    </ComponentArt:ClientTemplate>
+    
+    <ComponentArt:ClientTemplate Id="AttachmentIconTemplate">
+      <img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("AttachmentIcon").Value ##" width="8" height="10" border="0" >           
+    </ComponentArt:ClientTemplate>
+    
+    <ComponentArt:ClientTemplate Id="FlagIconTemplate">
+      <img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("FlagIcon").Value ##" width="12" height="12" border="0" >
+    </ComponentArt:ClientTemplate>
+    
+    <ComponentArt:ClientTemplate Id="LoadingFeedbackTemplate">
+    <table cellspacing="0" cellpadding="0" border="0">
+    <tr>
+      <td style="font-size:10px;">Loading...&nbsp;</td>
+      <td><img src="../App_Themes/Outlook/Images/Grid/spinner.gif" width="16" height="16" border="0"></td>
+    </tr>
+    </table>
+    </ComponentArt:ClientTemplate>
+    
+    <ComponentArt:ClientTemplate Id="SliderTemplate">
+      <table class="SliderPopup" cellspacing="0" cellpadding="0" border="0">
+      <tr>
+        <td valign="top" style="padding:5px;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td width="25" align="center" valign="top" style="padding-top:3px;"><img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("EmailIcon").Value ##" width="20" height="15"><br><img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("PriorityIcon").Value ##" width="8" height="10" border="0"><img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("AttachmentIcon").Value ##" width="8" height="10" border="0"></td>
+          <td>
+          <table cellspacing="0" cellpadding="2" border="0" style="width:255px;">
+          <tr>
+            <td style="font-family:verdana;font-size:11px;"><div style="overflow:hidden;width:115px;"><nobr>## DataItem.GetMember("StartedBy").Value ##</nobr></div></td>
+            <td style="font-family:verdana;font-size:11px;"><div style="overflow:hidden;width:135px;"><nobr>## DataItem.GetMember("LastPostDate").Text ##</nobr></div></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td width="230" colspan="2" style="font-family:verdana;font-size:11px;font-weight:bold;"><div style="text-overflow:ellipsis;overflow:hidden;width:250px;"><nobr>## DataItem.GetMember("Subject").Value ##</nobr></div></td>
+            </tr>
+            </table>                                    
+          </tr>
+          </table>    
+          </td>
+        </tr>
+        </table>  
+        </td>
+        <td style="background-color:#CAC6D4;padding:2px;" align="center"><img src="../App_Themes/Outlook/Images/Grid/## DataItem.GetMember("FlagIcon").Value ##" width="12" height="12" border="0"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="height:14px;background-color:#757598;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td style="padding-left:5px;color:white;font-family:verdana;font-size:10px;">
+          Page <b>## DataItem.PageIndex + 1 ##</b> of <b>## Parent.PageCount ##</b>
+          </td>
+          <td style="padding-right:5px;color:white;font-family:verdana;font-size:10px;" align="right">
+          Message <b>## DataItem.Index + 1 ##</b> of <b>## Parent.RecordCount ##</b>
+          </td>
+        </tr>
+        </table>  
+        </td>
+      </tr>
+      </table>
+    </ComponentArt:ClientTemplate>
+  </ClientTemplates>
+</ComponentArt:Grid>
+

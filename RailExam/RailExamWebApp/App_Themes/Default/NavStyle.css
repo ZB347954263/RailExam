@@ -1,0 +1,98 @@
+.TopGroup
+{
+    background-color: #DAECFF;
+    border: 1px;
+    border-color: black;
+    border-top-color: #7CBFEF;
+    border-left-color: #7CBFEF;
+    border-style: solid;
+}
+.TopItem
+{
+    background-color: #0078E5;
+    color: white;
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight:bold;
+    border: 1px;
+    border-color: #0045BC;
+    border-top-color: #5EABF1;
+    border-left-color: #5EABF1;
+    border-style: solid;
+    cursor: pointer;
+}
+.TopItemHover
+{
+    background-color: #2C97E5;
+    color: white;
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight:bold;
+    border: 1px;
+    border-top-color: #7CBFEF;
+    border-left-color: #7CBFEF;
+    border-right-color: #1B86D4;
+    border-bottom-color: #1B86D4;
+    border-style: solid;
+    cursor: pointer;
+}
+.TopItemActive
+{
+    background-color: #2C97E5;
+    color: white;
+    font-family: 宋体;
+    font-size: 12px;
+    font-weight:bold;
+    border: 1px;
+    border-left-color: #1B86D4;
+    border-top-color: #1B86D4;
+    border-right-color: #7CBFEF;
+    border-bottom-color: #7CBFEF;
+    border-style: solid;
+    cursor: pointer;
+}
+.Level2Group
+{
+    background-color: #DAECFF;
+    border: 1px;
+    border-color: #DAECFF;
+    border-style: solid;
+    width:100%;
+    padding:0px;
+}
+.Level2Item
+{
+    background-color: #DAECFF;
+    color: #000000;
+    font-family: 宋体;
+    font-size: 12px;
+    border: solid 1px #DAECFF;
+    border-style: solid;
+    cursor: pointer;
+}
+.Level2ItemHover
+{
+    background-color: #B6DCFF;
+    color: #000000;
+    font-family: 宋体;
+    font-size: 12px;
+    border: 1px;
+    border-color: #A8B9C9;
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-style: solid;
+    cursor: pointer;
+}
+.Level2ItemActive
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 宋体;
+    font-size: 12px;
+    border: 1px;
+    border-color: #FFFFFF;
+    border-top-color: #A8B9C9;
+    border-left-color: #A8B9C9;
+    border-style: solid;
+    cursor: pointer;
+}

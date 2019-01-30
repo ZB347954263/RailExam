@@ -1,0 +1,58 @@
+﻿.TopGroup
+{
+	background-color:white;
+	border:solid 1px gray; 
+}
+
+.MenuGroup
+{
+	background-color: white;
+	background-image: url(Images/Menu/group_background.gif);
+	border:solid 1px #7E7E81; 
+	cursor: default;
+}
+
+.MenuItem
+{
+	color:black;
+	font-family:tahoma; 
+	font-size:11px;
+	margin:1px; 
+	cursor:default; 
+}
+
+.MenuItemHover 
+{
+	background-color:#FFEEC2;
+	color:black; 
+	font-family:tahoma; 
+	font-size:11px; 
+	border-width:1px;
+	border-color:#4B4B6F; 
+	border-style:solid;
+	cursor:default; 
+}
+
+.DisabledMenuItem
+{
+	color:Gray; 
+	font-family:tahoma;
+	font-size:11px; 
+	cursor:default;
+}
+
+.DisabledMenuItemHover 
+{
+	color:Gray;
+	font-family:tahoma; 
+	font-size:11px;
+	background-color:silver;
+	cursor:default;
+}
+
+.MenuBreak
+{
+	background-image:url(Images/Menu/break_bg.gif);		
+	width:100%;
+	height:1px;
+}

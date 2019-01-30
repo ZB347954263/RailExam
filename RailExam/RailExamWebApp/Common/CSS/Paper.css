@@ -1,0 +1,43 @@
+body
+{
+}
+
+#PaperName
+{
+    text-align:center;
+	width:80%;
+	font-size:24px;
+    font-weight:bold;
+}
+
+#PaperInfo
+{
+	text-align:right;
+	font-size:12px;
+}
+
+#PaperBigTitle
+{
+    text-align:left;
+    background-color:#54FF9F;
+    font-size:12px;
+}
+
+#PaperAnswer
+{
+	text-align:left;
+	background-color:#7EC0EE;	
+	font-size:12px;
+}
+
+#PaperItemAnswer
+{
+	text-align:left;
+	font-size:12px;
+}
+
+#PaperItem
+{
+	text-align:left;
+	font-size:12px;
+}

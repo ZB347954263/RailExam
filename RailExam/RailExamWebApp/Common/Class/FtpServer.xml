@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SiteList>
+    <HostName>192.168.1.4</HostName>
+    <UserId>RailExamFTP</UserId>
+    <Password>railexam</Password>
+    <IsSecured>false</IsSecured>
+  </SiteList>

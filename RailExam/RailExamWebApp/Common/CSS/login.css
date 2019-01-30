@@ -1,0 +1,88 @@
+﻿body
+{
+    margin:0;
+	border:0;
+	padding:0;
+	background-image: url(/RailExamBao/images/new/bg3.jpg);
+	background-repeat:repeat;
+}
+
+/*
+#loginOuter
+{
+    position: relative;
+}
+
+#loginMiddle
+{
+    position: absolute;
+    top: 50%;
+}
+
+#loginInner
+{
+	width:770px;
+	height:480px;
+	background-image: url(../Image/login_pic.gif);
+	background-repeat: no-repeat;
+	position: relative;
+    top:-50%;
+    left:-50%;
+}
+
+#loginInfo
+{
+	width: 500px;
+	height: 85px;
+	position:relative;
+	white-space:nowrap;
+	top:420px;
+	left:255px;
+}
+
+#loginInfo span
+{
+	position: relative;
+    left:15px;
+    padding-right:10px;
+    vertical-align:bottom;
+}
+*/
+
+#loginArea
+{
+	width:770px;
+	height:480px;
+	border:0px;
+	background-image: url(../Image/login_pic.gif);
+	background-repeat: no-repeat;
+	text-align:left;
+}
+
+#loginInfo
+{
+	width: 500px;
+	height: 80px;
+	position: static;
+}
+
+.label
+{
+    height:20px;
+	font-size: 14px;
+	color: #ffffff;
+	line-height:20px;
+	vertical-align:bottom;
+}
+
+.textbox
+{
+    width:110px;
+    height:20px;
+	color: #000000;
+	background-color: #ffffff;
+	border: #000000 1px solid;
+	vertical-align:top;
+}
+
+

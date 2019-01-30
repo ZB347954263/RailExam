@@ -1,0 +1,14 @@
+D:\RailExam\RailExam\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\RailExam\RailExam\Model\bin\Debug\Model.dll
+D:\RailExam\RailExam\Model\bin\Debug\Model.pdb
+D:\RailExam\RailExam\Model\bin\Debug\DSunSoft.Common.dll
+D:\RailExam\RailExam\Model\bin\Debug\DSunSoft.Common.pdb
+D:\RailExam\RailExam\Model\obj\Debug\Model.dll
+D:\RailExam\RailExam\Model\obj\Debug\Model.pdb
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\bin\Debug\Model.dll
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\bin\Debug\Model.pdb
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\bin\Debug\DSunSoft.Common.dll
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\bin\Debug\DSunSoft.Common.pdb
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\obj\Debug\Model.dll
+D:\weixinworkspace\RailExam\RailExam\RailExam\Model\obj\Debug\Model.pdb

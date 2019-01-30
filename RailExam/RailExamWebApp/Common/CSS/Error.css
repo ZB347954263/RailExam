@@ -1,0 +1,38 @@
+body
+{
+	background-color: #f2f9ff;
+	position: relative;
+}
+
+#ErrorArea
+{
+	width: 450px;
+	height: 400px;
+	background-image: url(../Image/ErrorInfo.gif);
+	background-repeat: no-repeat;
+	text-align: left;
+	position:relative;
+}
+
+#ErrorTitle
+{
+	color: #ff6600;
+	font-size: 16px;
+	font-weight:bold;
+	top: 235px;
+	left: 35px;
+	width:100px;
+	height:30px;
+	position:relative;
+}
+
+#ErrorContent
+{
+	color: #2D61BA;
+	font-size: 14px;
+	top: 235px;
+	left: 35px;
+	width:380px;
+	height:150px;
+	position:relative;
+}

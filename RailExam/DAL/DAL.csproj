@@ -1,0 +1,196 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89BD63BD-ECEF-41E8-8D5C-70A14D911B03}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RailExamWebApp\References\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\RailExamWebApp\References\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.102.2.20, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssistBookCategoryDAL.cs" />
+    <Compile Include="AssistBookChapterDAL.cs" />
+    <Compile Include="AssistBookDAL.cs" />
+    <Compile Include="AssistBookTrainTypeDAL.cs" />
+    <Compile Include="AssistBookUpdateDAL.cs" />
+    <Compile Include="BookChapterDAL.cs" />
+    <Compile Include="BookUpdateDAL.cs" />
+    <Compile Include="BookDAL.cs" />
+    <Compile Include="BookTrainTypeDAL.cs" />
+    <Compile Include="BulletinDAL.cs" />
+    <Compile Include="CommitteeHeadShipDAL.cs" />
+    <Compile Include="CoursewareDAL.cs" />
+    <Compile Include="CoursewareTrainTypeDAL.cs" />
+    <Compile Include="CoursewareTypeDAL.cs" />
+    <Compile Include="EducationEmployeeTypeDAL.cs" />
+    <Compile Include="EducationLevelDAL.cs" />
+    <Compile Include="EmployeeDAL.cs" />
+    <Compile Include="EmployeeDetailDAL.cs" />
+    <Compile Include="EmployeeErrorDAL.cs" />
+    <Compile Include="EmployeeRailEduDAL.cs" />
+    <Compile Include="EmployeeTransferDAL.cs" />
+    <Compile Include="ExamArrangeDAL.cs" />
+    <Compile Include="ExamCategoryDAL.cs" />
+    <Compile Include="ExamDAL.cs" />
+    <Compile Include="ExamJudgeStatusDAL.cs" />
+    <Compile Include="ExamResultAnswerDAL.cs" />
+    <Compile Include="ExamResultDAL.cs" />
+    <Compile Include="ExamResultStatusDAL.cs" />
+    <Compile Include="ExamResultUpdateDAL.cs" />
+    <Compile Include="ExamStatusDAL.cs" />
+    <Compile Include="ExamTypeDAL.cs" />
+    <Compile Include="FunctionRightDAL.cs" />
+    <Compile Include="ImportanceDAL.cs" />
+    <Compile Include="ItemCategoryDAL.cs" />
+    <Compile Include="ItemConfigDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemDAL.cs" />
+    <Compile Include="ItemDifficultyDAL.cs" />
+    <Compile Include="ItemStatusDAL.cs" />
+    <Compile Include="ItemTypeDAL.cs" />
+    <Compile Include="KnowledgeDAL.cs" />
+    <Compile Include="OrgConfigDAL.cs" />
+    <Compile Include="OrgImportDAL.cs" />
+    <Compile Include="PaperStatusDAL.cs" />
+    <Compile Include="PoliticalStatusDAL.cs" />
+    <Compile Include="PostImportDAL.cs" />
+    <Compile Include="RandomExamApplyDAL.cs" />
+    <Compile Include="RandomExamComputerServerDAL.cs" />
+    <Compile Include="RandomExamCountStatisticDAL.cs" />
+    <Compile Include="RandomExamModularTypeDAL.cs" />
+    <Compile Include="RandomExamStatisticDAL.cs" />
+    <Compile Include="RandomExamArrangeDAL.cs" />
+    <Compile Include="RandomExamCountDAL.cs" />
+    <Compile Include="RandomExamDAL.cs" />
+    <Compile Include="RandomExamItemDAL.cs" />
+    <Compile Include="RandomExamResultAnswerCurrentDAL.cs" />
+    <Compile Include="RandomExamResultAnswerDAL.cs" />
+    <Compile Include="RandomExamResultAnswerStationDAL.cs" />
+    <Compile Include="RandomExamResultCurrentDAL.cs" />
+    <Compile Include="RandomExamResultDAL.cs" />
+    <Compile Include="RandomExamStrategyDAL.cs" />
+    <Compile Include="RandomExamSubjectDAL.cs" />
+    <Compile Include="RandomExamTrainClassDAL.cs" />
+    <Compile Include="RandomExamTrainClassHaDAL.cs" />
+    <Compile Include="RefreshSnapShotDAL.cs" />
+    <Compile Include="SynchronizeDAL.cs" />
+    <Compile Include="SynchronizeLogDAL.cs" />
+    <Compile Include="SystemLogDAL.cs" />
+    <Compile Include="LoginUserDAL.cs" />
+    <Compile Include="NoticeDAL.cs" />
+    <Compile Include="OrganizationDAL.cs" />
+    <Compile Include="OtherKnowledgeDAL.cs" />
+    <Compile Include="PaperCategoryDAL.cs" />
+    <Compile Include="PaperDAL.cs" />
+    <Compile Include="PaperItemDAL.cs" />
+    <Compile Include="PaperStrategyBookChapterDAL.cs" />
+    <Compile Include="PaperStrategyDAL.cs" />
+    <Compile Include="PaperStrategyItemCategoryDAL.cs" />
+    <Compile Include="PaperStrategySubjectDAL.cs" />
+    <Compile Include="PaperSubjectDAL.cs" />
+    <Compile Include="PostDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegulationCategoryDAL.cs" />
+    <Compile Include="RegulationDAL.cs" />
+    <Compile Include="SystemRoleDAL.cs" />
+    <Compile Include="SystemRoleRightDAL.cs" />
+    <Compile Include="SystemFunctionDAL.cs" />
+    <Compile Include="SystemUserLoginDAL.cs" />
+    <Compile Include="SystemVersionDAL.cs" />
+    <Compile Include="TaskJudgeStatusDAL.cs" />
+    <Compile Include="TaskResultAnswerDAL.cs" />
+    <Compile Include="TaskResultDAL.cs" />
+    <Compile Include="TaskResultStatusDAL.cs" />
+    <Compile Include="TechnicianTitleTypeDAL.cs" />
+    <Compile Include="TechnicianTypeDAL.cs" />
+    <Compile Include="TrainCourseBookDAL.cs" />
+    <Compile Include="TrainCourseCoursewareDAL.cs" />
+    <Compile Include="TrainCourseDAL.cs" />
+    <Compile Include="TrainEmployeeDAL.cs" />
+    <Compile Include="TrainPlanCourseDAL.cs" />
+    <Compile Include="TrainPlanDAL.cs" />
+    <Compile Include="TrainPlanEmployeeDAL.cs" />
+    <Compile Include="TrainPlanStatusDAL.cs" />
+    <Compile Include="TrainStandardDAL.cs" />
+    <Compile Include="TrainTypeDAL.cs" />
+    <Compile Include="SystemUserDAL.cs" />
+    <Compile Include="TrainTypeExerciseDAL.cs" />
+    <Compile Include="TrainTypeTaskDAL.cs" />
+    <Compile Include="WorkGroupLeaderLevelDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Common.xml" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="bin\Microsoft.Practices.EnterpriseLibrary.Data.xml" />
+    <Content Include="bin\Microsoft.Practices.ObjectBuilder.dll" />
+    <Content Include="bin\Microsoft.Practices.ObjectBuilder.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DSunSoft\DSunSoft.Data\DSunSoft.Data.csproj">
+      <Project>{63F5A94E-593F-4547-905E-430865992668}</Project>
+      <Name>DSunSoft.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{7C663A42-5CC5-49E5-B0E0-937BD4E73455}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
